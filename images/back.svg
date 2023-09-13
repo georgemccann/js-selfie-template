@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg x="0pt" y="0pt" width="26pt" height="26pt" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="1">
+    <title>Layer 1</title>
+    <clipPath id="3">
+      <use xlink:href="#2"/>
+      <path id="2" d="M0,0 C0,0,26,0,26,0 C26,0,26,26,26,26 C26,26,0,26,0,26 C0,26,0,0,0,0 z"/>
+    </clipPath>
+    <g id="4" style="clip-path:url(#3);">
+      <title>ClipGroup</title>
+      <g id="5">
+        <title>Group</title>
+        <defs>
+          <title>Shape 5</title>
+          <g id="6">
+            <defs>
+              <path id="7" d="M25.4435,21.3363 C25.2203,21.3363,25.0156,21.2086,24.9279,20.999 C24.9279,20.999,24.9279,20.999,24.9279,20.999 C24.8636,20.847,23.2554,17.2398,17.2427,16.5253 C15.9903,16.3733,14.4903,16.2953,12.6686,16.2817 C12.6686,17.7804,12.6686,19.2791,12.6686,20.7778 C12.6686,20.9854,12.5565,21.1735,12.3723,21.2729 C12.1891,21.3684,11.9698,21.3548,11.7992,21.2407 C11.7992,21.2407,0.247563,13.4649,0.247563,13.4649 C0.0916179,13.3606,0,13.1852,0,13.001 C0,12.8148,0.0916179,12.6452,0.247563,12.5361 C4.09974,9.9438,7.95192,7.35153,11.8041,4.75926 C11.9747,4.64133,12.192,4.63353,12.3772,4.73099 C12.5624,4.83041,12.6725,5.01852,12.6725,5.22027 C12.6725,6.61501,12.6725,8.00975,12.6725,9.40448 C15.1852,9.73197,26,11.6754,26,20.7827 C26,21.0468,25.8138,21.2778,25.5526,21.3304 C25.5166,21.3363,25.4786,21.3363,25.4435,21.3363 z"/>
+            </defs>
+            <use xlink:href="#7" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;opacity:1;stroke:none;"/>
+          </g>
+        </defs>
+        <use xlink:href="#6"/>
+        <g id="8">
+          <title>Group</title>
+        </g>
+        <g id="9">
+          <title>Group</title>
+        </g>
+        <g id="10">
+          <title>Group</title>
+        </g>
+        <g id="11">
+          <title>Group</title>
+        </g>
+        <g id="12">
+          <title>Group</title>
+        </g>
+        <g id="13">
+          <title>Group</title>
+        </g>
+        <g id="14">
+          <title>Group</title>
+        </g>
+        <g id="15">
+          <title>Group</title>
+        </g>
+        <g id="16">
+          <title>Group</title>
+        </g>
+        <g id="17">
+          <title>Group</title>
+        </g>
+        <g id="18">
+          <title>Group</title>
+        </g>
+        <g id="19">
+          <title>Group</title>
+        </g>
+        <g id="20">
+          <title>Group</title>
+        </g>
+        <g id="21">
+          <title>Group</title>
+        </g>
+        <g id="22">
+          <title>Group</title>
+        </g>
+        <defs>
+          <title>Group</title>
+          <g id="23">
+            <defs>
+              <path id="24" d="M25.4435,21.3363 C25.2203,21.3363,25.0156,21.2086,24.9279,20.999 C24.9279,20.999,24.9279,20.999,24.9279,20.999 C24.8636,20.847,23.2554,17.2398,17.2427,16.5253 C15.9903,16.3733,14.4903,16.2953,12.6686,16.2817 C12.6686,17.7804,12.6686,19.2791,12.6686,20.7778 C12.6686,20.9854,12.5565,21.1735,12.3723,21.2729 C12.1891,21.3684,11.9698,21.3548,11.7992,21.2407 C11.7992,21.2407,0.247563,13.4649,0.247563,13.4649 C0.0916179,13.3606,0,13.1852,0,13.001 C0,12.8148,0.0916179,12.6452,0.247563,12.5361 C4.09974,9.9438,7.95192,7.35153,11.8041,4.75926 C11.9747,4.64133,12.192,4.63353,12.3772,4.73099 C12.5624,4.83041,12.6725,5.01852,12.6725,5.22027 C12.6725,6.61501,12.6725,8.00975,12.6725,9.40448 C15.1852,9.73197,26,11.6754,26,20.7827 C26,21.0468,25.8138,21.2778,25.5526,21.3304 C25.5166,21.3363,25.4786,21.3363,25.4435,21.3363 z"/>
+            </defs>
+            <use xlink:href="#24" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;opacity:1;stroke:none;"/>
+          </g>
+        </defs>
+        <use xlink:href="#23"/>
+      </g>
+      <g id="25">
+        <title>Group</title>
+      </g>
+      <g id="26">
+        <title>Group</title>
+      </g>
+      <g id="27">
+        <title>Group</title>
+      </g>
+      <g id="28">
+        <title>Group</title>
+      </g>
+      <g id="29">
+        <title>Group</title>
+      </g>
+      <g id="30">
+        <title>Group</title>
+      </g>
+      <g id="31">
+        <title>Group</title>
+      </g>
+      <g id="32">
+        <title>Group</title>
+      </g>
+      <g id="33">
+        <title>Group</title>
+      </g>
+      <g id="34">
+        <title>Group</title>
+      </g>
+      <g id="35">
+        <title>Group</title>
+      </g>
+      <g id="36">
+        <title>Group</title>
+      </g>
+      <g id="37">
+        <title>Group</title>
+      </g>
+      <g id="38">
+        <title>Group</title>
+      </g>
+      <g id="39">
+        <title>Group</title>
+      </g>
+    </g>
+    <clipPath id="41">
+      <use xlink:href="#40"/>
+      <path id="40" d="M0,0 C0,0,26,0,26,0 C26,0,26,26,26,26 C26,26,0,26,0,26 C0,26,0,0,0,0 z"/>
+    </clipPath>
+    <g id="42" style="clip-path:url(#41);"/>
+  </g>
+</svg>

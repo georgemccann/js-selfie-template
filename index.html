@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-language" content="en-EN" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>White-label AR Filter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/splash.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+    <script src="./vendor/form.js"></script>
+  </head>
+  
+  <body>
+
+    <div class="container form">
+
+      <div class="row">
+          
+        <div class="col-12 text-center">
+
+          
+
+          <iframe  src="https://appdev.forthwithlife.co.uk/checkout" frameborder="0" id="my-iframe" width="375" height="667"></iframe>
+          <script>
+
+
+            const frame = document.getElementById('my-iframe');
+            let jsonArray = {};
+
+            function sendToFrame(event) {
+              jsonArray['orderCookieId'] = '657883224323211111102134316i27u157976201251146216464256';
+              frame.contentWindow.postMessage(JSON.stringify({'orderCookieId':'657883224323211111102134316i27u157976201251146216464256'}), '*');
+            }
+            function getBaseUrl ()  {
+                var file = document.querySelector('input[type=file]')['files'][0];
+                var reader = new FileReader();
+                var baseString;
+                reader.onloadend = function () {
+                    baseString = reader.result;
+                    jsonArray['pageHeaderImage'] = baseString;
+
+                    frame.contentWindow.postMessage(JSON.stringify(jsonArray), '*');
+
+                };
+                reader.readAsDataURL(file);
+ 
+                
+            }
+          
+
+
+          </script>
+          <input type="file" onchange="getBaseUrl()">
+
+          <input
+            type="text"
+            id="my-message"
+            placeholder="Type message ..."
+            onkeyup="sendToFrame(this)"
+          />
+          <header class="ml-auto mr-auto animate__animated animate__fadeIn">
+            <img width="100%" src="http://via.placeholder.com/1013x336">
+            <h1 class="title">
+              Title
+            </h1>
+          </header>
+          <p class="strap animate__animated animate__fadeInDown animate__delay-2s"><strong>Introduction</strong></p>
+          <p class="inst animate__animated animate__fadeIn animate__delay-2s">Content</p>
+          
+          <div class="form-items animate__animated animate__fadeInUp animate__delay-3s">
+            <h3 class="animate__animated animate__fadeInUp">Distance travelled</h3>
+            <input type="number" name="distance" id="distance" placeholder="0 km"/>
+            <h3 class="animate__animated animate__fadeIn">Method</h3>
+            <select id="type">
+              <option value="none">
+                --Select--
+              </option>
+              <option value="cycled">
+                Cycle
+              </option>
+              <option value="ran">
+                Run
+              </option>
+              <option value="walked">
+                Walk
+              </option>
+              <option value="swam">
+                Swim
+              </option>
+            </select>
+            <div class="block"><button id="submit" class="btn btn-standard">Go!</button></div>
+            <p id="errorContainer"></p>
+            <div class='legal'>
+              <p>By proceeding to the next stage you are agreeing to the <a href="./terms.pdf">Terms of Use</a> and <a href="./privacy.pdf">Privacy Policy</a></p>
+            </div>
+          </div>
+
+
+        </div>
+        
+      </div> 
+
+
+    </div>
+
+    
+  </body>
+</html>
+ 
+ 

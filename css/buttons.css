@@ -1,0 +1,17 @@
+.btn.btn-standard {
+    background: linear-gradient(180deg, #E75B59 0%, #E33E3C 100%);
+    border: 1px solid #E33E3C;
+}
+.btn {
+    padding: 10px 20px;
+    background: linear-gradient(180deg, #E75B59 0%, #E33E3C 100%);
+    border: 1px solid #E33E3C;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+}

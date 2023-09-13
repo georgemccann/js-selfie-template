@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-language" content="en-EN" />
+    <meta http-equiv="content-language" content="en-EN" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>White label AR Filter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">  
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+    <script src="./lib/jeelizFaceFilter.js"></script>
+    <script src="./lib/threejs/v90/three.min.js"></script>
+    <script src="./lib/JeelizResizer.js"></script>
+    <script src="./lib/JeelizThreejsHelper.js"></script>
+    <script src="./lib/addDragEventListener.js"></script>
+    <script src="./vendor/demo.js"></script>
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/filter.css">
+ 
+    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=#{property?._id}&product=custom-share-buttons"></script>
+    <style>
+      #st-1 .st-btn {
+        height:69px !important;
+        min-width: 74px !important;
+      }
+      #st-1 .st-btn > img {
+        height: 44px !important;
+        width: 44px !important;
+        top:13px !important;
+      }
+
+      #st-1 .st-btn {
+          max-width: 74px !important;
+      }
+      #st-1 {
+        display: inline-block !important;
+        vertical-align: bottom !important;
+      }
+    </style>
+  </head>
+  
+  <body onload="main()" style='color: white' class="animate__animated animate__fadeIn animate__delay-3s">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZRXZ3H"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="loader" id="removeOnLoad">
+      <img id="loadinglogo" src="http://via.placeholder.com/400x400" />
+      <p>Get ready...</p>
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+          
+        <div class="col-12 text-center">
+
+          <div class="wrapper" id="wrapper">
+
+            <div class="photo hidden">
+              <div class="photoActions">
+                <a href="#" class="back btn btn-standard"><img src="./images/back.svg"></a>
+                <button class="reload btn btn-standard" id="reload"><img src="./images/reload.svg"></button>
+                <button class="btn btn-standard superHide" id="shareWebAPI"><img src='./images/share.svg'></button>
+                <button class="st-custom-button btn btn-standard superHide" id="shareThis" data-title="Share text" data-description="#sharedescription" data-network="sharethis"><img src="./images/share.svg"></button>
+              </div>
+            </div>
+            <canvas width="600" height="600" id='jeeFaceFilterCanvas'></canvas>
+            <div id="infoBox" class="hidden"></div>
+            <div id="actionButtons" class="hidden">
+              <button id="btndownload" class="btn btn-standard"><img src="./images/camera.svg"></button>
+            </div>  
+             
+            <script src="./vendor/download.js"></script>
+            <script src="./vendor/loader.js"></script>
+       
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+    
+  </body>
+</html>
+ 
+ 
